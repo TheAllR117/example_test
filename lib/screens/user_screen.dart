@@ -81,7 +81,7 @@ class _UserScreenBody extends StatelessWidget {
                           final picker = new ImagePicker();
                           final PickedFile? pickedFile = await picker.getImage(
                               // source: ImageSource.gallery,
-                              source: ImageSource.camera,
+                              source: ImageSource.gallery,
                               imageQuality: 100);
 
                           if (pickedFile == null) {
